@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    neo4j:
+      uri: bolt://localhost
+      userName: neo4j
+      password: test
